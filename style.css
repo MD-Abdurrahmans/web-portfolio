@@ -17,6 +17,55 @@ p{
 
 .orange-highlight{ color: rgb(253, 212, 27);}
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.background{
+    background: rgb(0, 0, 0,0.7)  url("images/nav-backend.jpg");
+    
+}
+.logo img{ 
+    width: 33%;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-list{
+width: 50%;
+display: flex;
+
+align-items: center;
+
+
+}
+
+.nav-list li{
+list-style-type: none;
+padding: 25px 30px;
+}
+.nav-list li a{
+text-decoration: none;
+color: white;
+}
+
+.right-nav{
+   
+    width: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     
+}
+#search,.search-btn{
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
 
 .half-width{ 
     width: 40%;
@@ -26,7 +75,7 @@ p{
 }
 
 .half-width img{ 
-    width: 60%;
+    width: 70%;
     
 }
 
@@ -59,13 +108,14 @@ section{
 
    background-image: url("images/exp-bg.png");
    background-repeat: no-repeat;
-   background-position: 0;
+   background-position: left;
 }
 
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 80%;
+    height: 70%;
+    padding-top: 2%;
     
 }
 
