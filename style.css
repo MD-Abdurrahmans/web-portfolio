@@ -2,13 +2,20 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }
 h1{
   
     font-size: 50px;
 }
+h2{
+    font-size: 42px;
+}
+p{
+    color: dimgrey;
+}
 
-.name-highlight{ color: rgb(253, 212, 27);}
+.orange-highlight{ color: rgb(253, 212, 27);}
 
 
 .half-width{ 
@@ -19,6 +26,62 @@ h1{
 }
 
 .half-width img{ 
-    width: 100%;
+    width: 60%;
     
+}
+
+
+.top-banner{   
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange,orangered);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.dream-area{ 
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-area{ 
+
+   background-image: url("images/exp-bg.png");
+   background-repeat: no-repeat;
+   background-position: 0;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    
+}
+
+
+#full-stack{
+    border-left: 7px solid;
+     border-image: linear-gradient(150deg, orange,tomato);
+     border-image-slice: 1;
+}
+
+
+#new-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(105, 63, 223),rgb(53, 0, 138));
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
 }
