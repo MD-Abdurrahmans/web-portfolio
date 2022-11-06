@@ -88,10 +88,10 @@ color: wheat;
 }
 .buttons button{
     background-color: #f76c11;
-    padding: 11px 15px;
+    padding: 5px 10px;
     border-radius: 23px;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     cursor: pointer;
    
@@ -233,7 +233,7 @@ section{
 
 
 
-@media(max-width:1248px){
+@media(max-width:1150px){
 
 
    h1{
@@ -242,12 +242,15 @@ section{
    h2{
     font-size: 20px;
    }
+ p{
+    font-size: 17px;
+ }
    .single-experience{
-    height: 80%;
+    height: 90%;
 }
 }
 
-@media(max-width:760px){
+@media(max-width:660px){
 
     .half-width{
         width: 70%;
@@ -269,6 +272,25 @@ section{
     
 }
  
+@media(max-width:450px){
+
+     h1{
+        font-size: 30px;
+        
+       }
+       h2{
+        font-size: 20px;
+       }
+       h3{
+        font-size: 15px;
+       }
+     p{
+        font-size: 14px;
+     }
+       .single-experience{
+        height: 80%;
+    }
+}
 
 
 
