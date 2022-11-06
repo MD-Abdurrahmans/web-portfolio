@@ -28,10 +28,20 @@ p{
 
     display: flex;
     height: 100vh;
-   
+    background: rgb(0, 0, 0,0.4) url("https://source.unsplash.com/random/1600x900?website-background");
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+}
+
+.font-profile p{
+    color: white;
 }
 .left-nav {
-     background-color: rgb(187, 185, 185);
+    background: rgb(0, 0, 0,0.7) url("https://source.unsplash.com/random/1600x900?background");
+    background-size: cover;
+    background-blend-mode: darken;
+     color: white;
      padding: 2%;
      width: 30vh;
      height: 100vh;
@@ -58,7 +68,7 @@ p{
 .nav-list li a{
 text-decoration: none;
 font-size: 25px;
-color: black;
+color: wheat;
 }
 .profile-container{
      width: 100vw;     
@@ -199,7 +209,7 @@ section{
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 70%;
+    height: 80%;
     padding-top: 2%;
     
 }
@@ -217,9 +227,9 @@ section{
     border-image: linear-gradient(180deg,rgb(105, 63, 223),rgb(53, 0, 138));
     border-image-slice:1;
 }
-footer p{
+/* footer p{
     text-align: center;
-}
+} */
 
 
 
@@ -232,6 +242,9 @@ footer p{
    h2{
     font-size: 20px;
    }
+   .single-experience{
+    height: 80%;
+}
 }
 
 @media(max-width:760px){
@@ -244,7 +257,8 @@ footer p{
     }
 
     .single-experience{
-        height: 55%;
+        height: 80%;
+        
     }
     .half-width h2{
         color: red;
@@ -255,3 +269,18 @@ footer p{
     
 }
  
+
+
+
+
+
+footer{ background-color:rgb(226, 238, 226);margin-top: 200px;}
+.align h5{  position: relative;left: 30px;}
+.app{ display: flex;justify-content: center;align-items: center;}
+.app i{ border: 2px solid black;padding: 20px 100px; font-size: 20px; }
+.boxs{ margin-top: 20px;}
+
+@media(max-width:992px){
+
+  .align{   position: relative;left: -30px;}
+}

@@ -1,9 +1,13 @@
 .contact-container{
-    width: 90vw;
-    height: 100vh;
+    width: 100vw;
+    height: 100%;
    display: flex;
    justify-content: center;
    align-self: center;
+background: rgb(0, 0, 0,0.5) url("https://source.unsplash.com/random/1600x900?world");
+background-size: cover;
+background-blend-mode: darken;
+color: white;
      
    
 }
