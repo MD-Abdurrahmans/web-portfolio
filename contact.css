@@ -1,0 +1,61 @@
+.contact-container{
+    width: 90vw;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+     
+   
+}
+
+.google-map{
+     width: 50%;
+     height: 70vh;
+     margin-top: 200px;
+}
+
+
+.main-contact{
+    width: 50%;
+    height: 74vh;
+    margin: 91px 40px;
+
+}
+.main-contact h2{
+    text-align: center;
+}
+
+.form-box{
+    padding-left: 49px;
+}
+.form-box input{
+    width: 439px;
+    height: 25px;
+    border-radius: 8px;
+    padding: 5px 5px;
+}
+
+.form-box button{
+    background-color: #ff7100;
+    padding: 9px 33px;
+    color: wheat;
+    font-weight: 700;
+    border-radius: 10px;
+   cursor: pointer;
+   margin-top: 18px;
+}
+
+
+@media(max-width:1200px){
+
+    .contact-container{
+        display: block;
+           
+    }
+    .google-map{
+        margin-top: 50px;
+        margin-left: -50px;     
+    }
+ 
+    
+}
