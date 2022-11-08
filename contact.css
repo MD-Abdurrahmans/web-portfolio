@@ -6,6 +6,14 @@
     max-width: 100vw;
     overflow-x: hidden;
 }
+
+html,body{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+
+}
 .contact-container{
     width: 100vw;
     height: 100%;
@@ -19,6 +27,7 @@ color: white;
      
    
 }
+
 
 .google-map{
      width: 50%;
@@ -39,12 +48,15 @@ color: white;
 
 .form-box{
     padding-left: 0px;
+    
 }
 .form-box input{
     width: 439px;
     height: 25px;
     border-radius: 8px;
     padding: 5px 5px;
+    
+   
 }
 
 .form-box button{
@@ -62,11 +74,12 @@ color: white;
 
     .contact-container{
         display: block;
-           
+    
     }
     .google-map{
         margin-top: 50px;
-        margin-left: -50px;     
+        margin-left: -50px;    
+        overflow-y: hidden; 
     }
  
     
@@ -79,14 +92,18 @@ color: white;
 
     .contact-container{
         width: 125%;
+    
     }
 
     .google-map{
+        width: 330px;
+      
         margin-top: 50px;
-        margin-left: -100px;     
+        margin-left: 30px;     
     }
+    
     footer .container{
         width: 100vw;
-          padding-left: 40px;
+        padding-left: 40px;
     }
 }

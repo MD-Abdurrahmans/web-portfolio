@@ -64,10 +64,9 @@ p{
     }
     .hambar i{
          padding: 5px;
-        border: 4px solid orangered;
-    ;
     }
 }
+
 .active .left-nav{ transform: translate(0px)  }
 
 .nav-list{
